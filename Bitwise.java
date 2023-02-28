@@ -3,8 +3,15 @@ public class Bitwise {
     // there is different bitmask for every operation
 
     public static void main(String[] args) {
+        // position rightside se start ho raha
         int n = 5;
         int pos = 2;
-        
+        int bitmask = 1<<pos;
+
+        if ((bitmask & n) == 0){
+            System.out.println("Bit was 0");
+        }else{
+            System.out.println("Bit was 1");
+        }
     }
 }
