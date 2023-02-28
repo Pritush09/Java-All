@@ -68,5 +68,6 @@ public class Stringbuilders {
          }
          System.out.println(mane);
 
+         sc.close();
     }
 }
