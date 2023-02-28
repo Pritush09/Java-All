@@ -15,7 +15,7 @@ class FirstClass{
         int a=0;
 
         // For constant keyword no one cna change it 
-        final int asa = 0;
+        //final int asa = 0;
 
 
         System.out.println(a);
